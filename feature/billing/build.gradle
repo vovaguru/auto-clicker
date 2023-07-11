@@ -29,7 +29,7 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.feature.billing'
+    namespace 'com.ektu.smartautoclicker.feature.billing'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

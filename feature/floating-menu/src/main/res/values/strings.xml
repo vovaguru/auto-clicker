@@ -16,6 +16,6 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="message_scenario_saving_error">Your scenario can\'t be saved due to an internal error. \nDo you want to modify it or cancel all your modifications ?</string>
-    <string name="button_dialog_modify">Modify</string>
+    <string name="message_scenario_saving_error">Ваш сценарий не может быть сохранен из-за внутренней ошибки.  Вы хотите изменить его или отменить все свои изменения?</string>
+    <string name="button_dialog_modify">Изменить</string>
 </resources>

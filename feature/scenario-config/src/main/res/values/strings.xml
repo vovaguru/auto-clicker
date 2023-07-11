@@ -21,33 +21,33 @@
       - Titles for the dialogs displayed as overlay.
       - Allowed characters can be small due to save/delete/close buttons.
       -->
-    <string name="dialog_overlay_title_action_type">Action type</string>
-    <string name="dialog_overlay_title_application_selection">Select an application</string>
-    <string name="dialog_overlay_title_click">Click</string>
-    <string name="dialog_overlay_title_condition_config">Condition</string>
-    <string name="dialog_overlay_title_copy_from">Copy from</string>
-    <string name="dialog_overlay_title_end_condition_config">End Condition</string>
-    <string name="dialog_overlay_title_event_config">Event</string>
-    <string name="dialog_overlay_title_event_selection">Select an event</string>
+    <string name="dialog_overlay_title_action_type">Тип действия</string>
+    <string name="dialog_overlay_title_application_selection">Выберите приложение</string>
+    <string name="dialog_overlay_title_click">Клик</string>
+    <string name="dialog_overlay_title_condition_config">Условие</string>
+    <string name="dialog_overlay_title_copy_from">Копировать из</string>
+    <string name="dialog_overlay_title_end_condition_config">Конец условия</string>
+    <string name="dialog_overlay_title_event_config">Событие</string>
+    <string name="dialog_overlay_title_event_selection">Выберите событие</string>
     <string name="dialog_overlay_title_intent">Intent</string>
-    <string name="dialog_overlay_title_pause">Wait</string>
-    <string name="dialog_overlay_title_scenario_config">Scenario</string>
-    <string name="dialog_overlay_title_swipe">Swipe</string>
-    <string name="dialog_overlay_title_toggle_event">Event state</string>
+    <string name="dialog_overlay_title_pause">Пауза</string>
+    <string name="dialog_overlay_title_scenario_config">Сценарий</string>
+    <string name="dialog_overlay_title_swipe">Свайп</string>
+    <string name="dialog_overlay_title_toggle_event">Состояние события</string>
 
     <!--
       - Text for menu items.
       - Should be short and concise.
       -->
-    <string name="menu_item_title_advanced">Advanced</string>
-    <string name="menu_item_title_cancel">Cancel</string>
-    <string name="menu_item_title_search">Search</string>
-    <string name="menu_item_title_simple">Simple</string>
-    <string name="menu_item_title_events">Events</string>
-    <string name="menu_item_title_config">Config</string>
-    <string name="menu_item_title_debug">Debug</string>
-    <string name="menu_item_title_conditions">Conditions</string>
-    <string name="menu_item_title_actions">Actions</string>
+    <string name="menu_item_title_advanced">Дополнительно</string>
+    <string name="menu_item_title_cancel">Отмена</string>
+    <string name="menu_item_title_search">Поиск</string>
+    <string name="menu_item_title_simple">Просто</string>
+    <string name="menu_item_title_events">События</string>
+    <string name="menu_item_title_config">Конфиг</string>
+    <string name="menu_item_title_debug">Отладка</string>
+    <string name="menu_item_title_conditions">Условия</string>
+    <string name="menu_item_title_actions">Действия</string>
 
     <!--
       - Text for items in a list or vertical layout.
@@ -55,49 +55,49 @@
       -  * Desc can have more space to describe the title
       -  * Error have the same space as desc
       -->
-    <string name="item_desc_click">Click somewhere on the screen</string>
-    <string name="item_desc_click_details">During %1$s at [%2$d, %3$d]</string>
-    <string name="item_desc_click_position_on_condition">On condition</string>
-    <string name="item_desc_click_on_position">Click on %1$d, %2$d</string>
-    <string name="item_desc_intent">Interact with another application</string>
-    <string name="item_desc_intent_action">Send %1$s</string>
-    <string name="item_desc_intent_action_component">Send %1$s to %2$s</string>
-    <string name="item_desc_pause">Pause the detection execution</string>
-    <string name="item_desc_pause_details">During %1$s</string>
-    <string name="item_desc_swipe">Swipe from a position on the screen to another</string>
-    <string name="item_desc_swipe_details">During %1$s from [%2$d, %3$d] to [%4$d, %5$d]</string>
-    <string name="item_desc_swipe_positions">Swipe from %1$d, %2$d to %3$d, %4$d</string>
-    <string name="item_desc_toggle_event">Change the enabled state of an event</string>
-    <string name="item_desc_toggle_event_details">Change event state with type %1$s</string>
-    <string name="item_error_action_invalid_generic">This action is invalid</string>
-    <string name="item_error_action_invalid_toggle_event_target">Target event not found</string>
-    <string name="item_title_click">Click</string>
-    <string name="item_title_debug_generate_report">Generate a report</string>
-    <string name="item_title_debug_show_view">Show debug view</string>
-    <string name="item_title_intent">Intent</string>
-    <string name="item_title_pause">Wait</string>
-    <string name="item_title_swipe">Swipe</string>
-    <string name="item_title_toggle_event">Change event state</string>
+    <string name="item_desc_click">Щелкните где-нибудь на экране</string>
+    <string name="item_desc_click_details">В течение %1$s в [%2$d, %3$d]</string>
+    <string name="item_desc_click_position_on_condition">При условии</string>
+    <string name="item_desc_click_on_position">Нажмите на%1$d, %2$d</string>
+    <string name="item_desc_intent">Взаимодействие с другим приложением</string>
+    <string name="item_desc_intent_action">Отправить%1$s</string>
+    <string name="item_desc_intent_action_component">Отправить%1$s в%2$s</string>
+    <string name="item_desc_pause">Приостановить выполнение обнаружения</string>
+    <string name="item_desc_pause_details">В течение %1$s</string>
+    <string name="item_desc_swipe">Проведите пальцем от одной позиции на экране к другой</string>
+    <string name="item_desc_swipe_details">В течение %1$с от [%2$d, %3$d] до [%4$d, %5$d]</string>
+    <string name="item_desc_swipe_positions">Проведите пальцем от%1$d, %2$d до %3$d, %4$d</string>
+    <string name="item_desc_toggle_event">Изменить включенное состояние события</string>
+    <string name="item_desc_toggle_event_details">Изменить состояние события с помощью типа%1$s</string>
+    <string name="item_error_action_invalid_generic">Это действие недопустимо</string>
+    <string name="item_error_action_invalid_toggle_event_target">Целевое событие не найдено</string>
+    <string name="item_title_click">Нажмите</string>
+    <string name="item_title_debug_generate_report">Сгенерировать отчет</string>
+    <string name="item_title_debug_show_view">Показать отладочный вид</string>
+    <string name="item_title_intent">Намерение</string>
+    <string name="item_title_pause">Ожидание</string>
+    <string name="item_title_swipe">Проведите пальцем</string>
+    <string name="item_title_toggle_event">Изменить состояние события</string>
 
     <!--
       - Empty list messages.
       - Views handles any length here, but try to be concise.
       -->
-    <string name="message_empty_actions">No actions !</string>
-    <string name="message_empty_conditions">No conditions !</string>
-    <string name="message_empty_copy">Nothing to copy</string>
-    <string name="message_empty_end_condition_config_event_none_in_scenario">No Event created in the scenario</string>
-    <string name="message_empty_end_condition_config_event_no_selection">No Event selected</string>
-    <string name="message_empty_event_list">No events !</string>
+    <string name="message_empty_actions">Нет действий !</string>
+    <string name="message_empty_conditions">Нет условий !</string>
+    <string name="message_empty_copy">Нечего копировать</string>
+    <string name="message_empty_end_condition_config_event_none_in_scenario">Нет созданных событий</string>
+    <string name="message_empty_end_condition_config_event_no_selection">Событие не выбрано</string>
+    <string name="message_empty_event_list">Нет событий !</string>
 
     <!--
       - Secondary empty list messages.
       - Views handles any length here, you can use more verbosity than the regular empty text.
       -->
-    <string name="message_empty_secondary_end_condition_no_events">You need at least one event to create an end condition for your scenario</string>
-    <string name="message_empty_secondary_event_list">An event contains a set of actions executed when a specific condition is detected on the screen.\nYou need at least one event in your scenario to execute it.</string>
-    <string name="message_empty_secondary_condition_list">A condition is a part of a screenshot that will be searched on each frames displayed by your phone screen.\nYou need at least one condition in your event.</string>
-    <string name="message_empty_secondary_action_list">An action is an interaction (click, swipe…) with your phone triggered when the created conditions are fulfilled.\nYou need at least one action in your event.</string>
+    <string name="message_empty_secondary_end_condition_no_events">Вам нужно хотя бы одно событие, чтобы создать конечное условие для вашего сценария</string>
+    <string name="message_empty_secondary_event_list">Событие содержит набор действий, выполняемых при обнаружении определенного условия на экране.\ Вам нужно хотя бы одно событие в вашем сценарии, чтобы выполнить его.</string>
+    <string name="message_empty_secondary_condition_list">Условие - это часть скриншота, поиск по которому будет осуществляться в каждом кадре, отображаемом на экране вашего телефона.\Вам нужно хотя бы одно условие в вашем событии.</string>
+    <string name="message_empty_secondary_action_list">Действие - это взаимодействие (щелчок, свайп…) с вашим телефоном, запускаемое при выполнении созданных условий.\Вам нужно хотя бы одно действие в вашем событии.</string>
 
     <!--
       - Messages.

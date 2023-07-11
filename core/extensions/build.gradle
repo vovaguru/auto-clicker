@@ -19,7 +19,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.extensions'
+    namespace 'com.ektu.smartautoclicker.core.extensions'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

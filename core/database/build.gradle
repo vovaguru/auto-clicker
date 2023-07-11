@@ -20,7 +20,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlinx-serialization'
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.database'
+    namespace 'com.ektu.smartautoclicker.core.database'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

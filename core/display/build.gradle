@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.capture'
+    namespace 'com.ektu.smartautoclicker.core.capture'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.feature.scenario.config'
+    namespace 'com.ektu.smartautoclicker.feature.scenario.config'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

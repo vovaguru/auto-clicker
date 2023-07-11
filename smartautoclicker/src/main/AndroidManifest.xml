@@ -44,7 +44,7 @@
         tools:ignore="DataExtractionRules">
 
         <activity
-            android:name="com.buzbuz.smartautoclicker.activity.ScenarioActivity"
+            android:name="com.ektu.smartautoclicker.activity.ScenarioActivity"
             android:screenOrientation="locked"
             android:exported="true">
             <intent-filter>

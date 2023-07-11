@@ -32,13 +32,13 @@ class ProModeBillingActivity : AppCompatActivity() {
 
         /** Intent extra key for the billing reason. */
         private const val EXTRA_BILLING_REASON =
-            "com.buzbuz.smartautoclicker.feature.billing.ui.EXTRA_BILLING_REASON"
+            "com.ektu.smartautoclicker.feature.billing.ui.EXTRA_BILLING_REASON"
         /**
          * Intent extra key for limitations. If true, the billing reason is of type [ProModeAdvantage.Limitation].
          * If not, it is of type [ProModeAdvantage.Feature].
          */
         private const val EXTRA_IS_LIMITATION =
-            "com.buzbuz.smartautoclicker.feature.billing.ui.EXTRA_IS_LIMITATION"
+            "com.ektu.smartautoclicker.feature.billing.ui.EXTRA_IS_LIMITATION"
 
         /**
          * Get the intent for starting this activity.

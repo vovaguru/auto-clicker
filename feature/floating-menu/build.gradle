@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.feature.floatingmenu'
+    namespace 'com.ektu.smartautoclicker.feature.floatingmenu'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

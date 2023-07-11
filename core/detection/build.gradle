@@ -23,7 +23,7 @@ plugins {
 apply from: 'fetchSources.gradle'
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.detection'
+    namespace 'com.ektu.smartautoclicker.core.detection'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

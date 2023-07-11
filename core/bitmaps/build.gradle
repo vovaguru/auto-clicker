@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.bitmaps'
+    namespace 'com.ektu.smartautoclicker.core.bitmaps'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

@@ -21,7 +21,7 @@ plugins {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker.core.domain'
+    namespace 'com.ektu.smartautoclicker.core.domain'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {

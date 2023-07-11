@@ -35,11 +35,11 @@ if (signingPropertiesFile.exists()) {
 }
 
 android {
-    namespace 'com.buzbuz.smartautoclicker'
+    namespace 'com.ektu.smartautoclicker'
     compileSdk rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.buzbuz.smartautoclicker"
+        applicationId 'com.ektu.smartautoclicker'
         minSdk rootProject.ext.minSdkVersion
         targetSdk rootProject.ext.compileSdkVersion
         versionCode 30
@@ -87,9 +87,6 @@ android {
             }
         }
 
-        debugFDroid {
-            applicationIdSuffix '.debug'
-        }
     }
 
     // Specifies one flavor dimension.
