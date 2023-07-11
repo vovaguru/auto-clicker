@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.buzbuz.smartautoclicker.feature.billing.ui
+package com.ektu.smartautoclicker.feature.billing.ui
 
 import android.app.Activity
 import android.app.Application
@@ -26,9 +26,9 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.viewModelScope
 
-import com.buzbuz.smartautoclicker.feature.billing.ProModeAdvantage
-import com.buzbuz.smartautoclicker.feature.billing.IBillingRepository
-import com.buzbuz.smartautoclicker.feature.billing.R
+import com.ektu.smartautoclicker.feature.billing.ProModeAdvantage
+import com.ektu.smartautoclicker.feature.billing.IBillingRepository
+import com.ektu.smartautoclicker.feature.billing.R
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

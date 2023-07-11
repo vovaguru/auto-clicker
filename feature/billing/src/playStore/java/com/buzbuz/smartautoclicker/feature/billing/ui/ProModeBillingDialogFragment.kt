@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.buzbuz.smartautoclicker.feature.billing.ui
+package com.ektu.smartautoclicker.feature.billing.ui
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -28,8 +28,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 
-import com.buzbuz.smartautoclicker.feature.billing.R
-import com.buzbuz.smartautoclicker.feature.billing.databinding.FragmentProModeBillingDialogBinding
+import com.ektu.smartautoclicker.feature.billing.R
+import com.ektu.smartautoclicker.feature.billing.databinding.FragmentProModeBillingDialogBinding
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog

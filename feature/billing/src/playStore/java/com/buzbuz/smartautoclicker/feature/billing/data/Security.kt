@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.buzbuz.smartautoclicker.feature.billing.data
+package com.ektu.smartautoclicker.feature.billing.data
 
 import android.text.TextUtils
 import android.util.Base64
 import android.util.Log
 
-import com.buzbuz.smartautoclicker.feature.billing.BuildConfig
+import com.ektu.smartautoclicker.feature.billing.BuildConfig
 
 import java.io.IOException
 import java.security.InvalidKeyException
