@@ -20,6 +20,7 @@ import android.content.Context
 import android.graphics.Point
 import android.text.InputFilter
 import android.text.InputType
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -96,6 +97,12 @@ class SwipeDialog(
                 }
             }
             hideSoftInputOnFocusLoss(editSwipeDurationLayout.textField)
+
+            useConditionPosition.apply {
+                setOnCheckedChangeListener {_, isChecked ->
+                    viewModel.setSwipeOnCondition(isChecked)
+                }
+            }
 
             onPositionSelectButton.setOnClickListener { showPositionSelector() }
         }

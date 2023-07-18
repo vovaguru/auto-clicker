@@ -74,6 +74,7 @@ sealed class Action {
      * @param fromY the y position of the swipe start.
      * @param toX the x position of the swipe end.
      * @param toY the y position of the swipe end.
+     * @param swipeOnCondition the y position of the condition position Y.
      */
     data class Swipe(
         override val id: Identifier,
@@ -84,10 +85,11 @@ sealed class Action {
         val fromY: Int? = null,
         val toX: Int? = null,
         val toY: Int? = null,
+        val swipeOnCondition: Boolean,
     ) : Action() {
 
         override fun isComplete(): Boolean =
-            super.isComplete() && swipeDuration != null && fromX != null && fromY != null && toX != null && toY != null
+            super.isComplete() && swipeDuration != null && ((fromX != null && fromY != null && toX != null && toY != null) || swipeOnCondition)
 
         override fun deepCopy(): Swipe = copy(name = "" + name)
     }

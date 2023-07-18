@@ -234,6 +234,13 @@
     <string name="dropdown_helper_text_click_position_type_on_condition">Click on the detected condition</string>
     <string name="dropdown_helper_text_click_position_type_on_position">Click on the selected position</string>
 
+    <!-- Dropdown field for selecting the swipe position type -->
+    <string name="dropdown_label_swipe_position_type" translatable="false">Swipe on</string>
+    <string name="dropdown_item_title_swipe_position_type_on_condition" translatable="false">Condition</string>
+    <string name="dropdown_item_title_swipe_position_type_on_position" translatable="false">Selected position</string>
+    <string name="dropdown_helper_text_swipe_position_type_on_condition" translatable="false">Swipe on the detected condition Y</string>
+    <string name="dropdown_helper_text_swipe_position_type_on_position" translatable="false">Swipe on the selected position</string>
+
     <!-- Dropdown field for selecting the intent sending type. -->
     <string name="dropdown_label_intent_sending_type">Type</string>
 

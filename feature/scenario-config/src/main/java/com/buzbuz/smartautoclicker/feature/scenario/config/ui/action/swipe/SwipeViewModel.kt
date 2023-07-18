@@ -19,6 +19,7 @@ package com.buzbuz.smartautoclicker.feature.scenario.config.ui.action.swipe
 import android.app.Application
 import android.content.SharedPreferences
 import android.graphics.Point
+import android.util.Log
 
 import androidx.lifecycle.AndroidViewModel
 
@@ -79,6 +80,12 @@ class SwipeViewModel(application: Application) : AndroidViewModel(application) {
     fun setName(name: String) {
         editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
             editionRepository.updateEditedAction(swipe.copy(name = "" + name))
+        }
+    }
+
+    fun setSwipeOnCondition(onCondition: Boolean){
+        editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
+            editionRepository.updateEditedAction(swipe.copy(swipeOnCondition = onCondition))
         }
     }
 

@@ -51,6 +51,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_vertical_default"/>
 
+            <Switch
+                android:id="@+id/use_condition_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Использовать позицию условия"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/on_position_select_button"
                 style="@style/Widget.Material3.Button.TonalButton"

@@ -111,6 +111,7 @@ class EditedItemsBuilder internal constructor(private val editor: ScenarioEditor
             eventId = getEditedEventIdOrThrow(),
             name = context.getString(R.string.default_swipe_name),
             swipeDuration = context.getEventConfigPreferences().getSwipeDurationConfig(context),
+            swipeOnCondition = false,
         )
 
     fun createNewPause(context: Context): Action.Pause =

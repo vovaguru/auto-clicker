@@ -61,7 +61,7 @@ internal class ActionExecutor(
         actions.forEach { action ->
             when (action) {
                 is Click -> executeClick(action, conditionPosition)
-                is Swipe -> executeSwipe(action)
+                is Swipe -> executeSwipe(action, conditionPosition)
                 is Pause -> executePause(action)
                 is Action.Intent -> executeIntent(action)
                 is ToggleEvent -> executeToggleEvent(action)
@@ -104,12 +104,23 @@ internal class ActionExecutor(
      * Execute the provided swipe.
      * @param swipe the swipe to be executed.
      */
-    private suspend fun executeSwipe(swipe: Swipe) {
+    private suspend fun executeSwipe(swipe: Swipe, conditionPosition: Point?) {
         val swipePath = Path()
         val swipeBuilder = GestureDescription.Builder()
 
-        swipePath.moveTo(swipe.fromX!!, swipe.fromY!!, randomize)
-        swipePath.lineTo(swipe.toX!!, swipe.toY!!, randomize)
+        conditionPosition?.let { center ->  Log.d("SWIPE ON", center.y.toString())}
+
+
+
+        if (swipe.swipeOnCondition) {
+            conditionPosition?.let { conditionCenter ->
+                swipePath.moveTo(swipe.fromX!!, conditionCenter.y, randomize)
+                swipePath.lineTo(swipe.toX!!, conditionCenter.y, randomize)
+            }
+        } else {
+            swipePath.moveTo(swipe.fromX!!, swipe.fromY!!, randomize)
+            swipePath.lineTo(swipe.toX!!, swipe.toY!!, randomize)
+        }
         swipeBuilder.addStroke(
             GestureDescription.StrokeDescription(
                 swipePath,

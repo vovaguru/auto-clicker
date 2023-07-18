@@ -64,6 +64,7 @@ private fun Action.Swipe.toSwipeEntity(): CompleteActionEntity {
             fromY = fromY,
             toX = toX,
             toY = toY,
+            swipeOnCondition = swipeOnCondition
         ),
         intentExtras = emptyList(),
     )
@@ -147,6 +148,7 @@ private fun CompleteActionEntity.toSwipe(asDomain: Boolean = false) = Action.Swi
     fromY = action.fromY!!,
     toX = action.toX!!,
     toY = action.toY!!,
+    swipeOnCondition = action.swipeOnCondition!!,
 )
 
 private fun CompleteActionEntity.toPause(asDomain: Boolean = false) = Action.Pause(
