@@ -21,33 +21,33 @@
       - Titles for the dialogs displayed as overlay.
       - Allowed characters can be small due to save/delete/close buttons.
       -->
-    <string name="dialog_overlay_title_action_type">Action type</string>
-    <string name="dialog_overlay_title_application_selection">Select an application</string>
-    <string name="dialog_overlay_title_click">Click</string>
-    <string name="dialog_overlay_title_condition_config">Condition</string>
-    <string name="dialog_overlay_title_copy_from">Copy from</string>
-    <string name="dialog_overlay_title_end_condition_config">End Condition</string>
-    <string name="dialog_overlay_title_event_config">Event</string>
-    <string name="dialog_overlay_title_event_selection">Select an event</string>
-    <string name="dialog_overlay_title_intent">Intent</string>
-    <string name="dialog_overlay_title_pause">Wait</string>
-    <string name="dialog_overlay_title_scenario_config">Scenario</string>
-    <string name="dialog_overlay_title_swipe">Swipe</string>
-    <string name="dialog_overlay_title_toggle_event">Event state</string>
+    <string name="dialog_overlay_title_action_type">Тип действия</string>
+    <string name="dialog_overlay_title_application_selection">Выберите приложение</string>
+    <string name="dialog_overlay_title_click">Нажатие</string>
+    <string name="dialog_overlay_title_condition_config">Условие</string>
+    <string name="dialog_overlay_title_copy_from">Копировать из</string>
+    <string name="dialog_overlay_title_end_condition_config">Конечное условие</string>
+    <string name="dialog_overlay_title_event_config">Событие</string>
+    <string name="dialog_overlay_title_event_selection">Выберите событие</string>
+    <string name="dialog_overlay_title_intent">Датасет</string>
+    <string name="dialog_overlay_title_pause">Пауза</string>
+    <string name="dialog_overlay_title_scenario_config">Сценарий</string>
+    <string name="dialog_overlay_title_swipe">Свайп</string>
+    <string name="dialog_overlay_title_toggle_event">Переключатель</string>
 
     <!--
       - Text for menu items.
       - Should be short and concise.
       -->
-    <string name="menu_item_title_advanced">Advanced</string>
-    <string name="menu_item_title_cancel">Cancel</string>
-    <string name="menu_item_title_search">Search</string>
-    <string name="menu_item_title_simple">Simple</string>
-    <string name="menu_item_title_events">Events</string>
-    <string name="menu_item_title_config">Config</string>
-    <string name="menu_item_title_debug">Debug</string>
-    <string name="menu_item_title_conditions">Conditions</string>
-    <string name="menu_item_title_actions">Actions</string>
+    <string name="menu_item_title_advanced">Дополнительно</string>
+    <string name="menu_item_title_cancel">Отмена</string>
+    <string name="menu_item_title_search">Поиск</string>
+    <string name="menu_item_title_simple">Простой</string>
+    <string name="menu_item_title_events">События</string>
+    <string name="menu_item_title_config">Конфигурация</string>
+    <string name="menu_item_title_debug">Отладка</string>
+    <string name="menu_item_title_conditions">Условия</string>
+    <string name="menu_item_title_actions">Действия</string>
 
     <!--
       - Text for items in a list or vertical layout.
@@ -55,123 +55,123 @@
       -  * Desc can have more space to describe the title
       -  * Error have the same space as desc
       -->
-    <string name="item_desc_click">Click somewhere on the screen</string>
-    <string name="item_desc_click_details">During %1$s at [%2$d, %3$d]</string>
-    <string name="item_desc_click_position_on_condition">On condition</string>
-    <string name="item_desc_click_on_position">Click on %1$d, %2$d</string>
-    <string name="item_desc_intent">Interact with another application</string>
-    <string name="item_desc_intent_action">Send %1$s</string>
-    <string name="item_desc_intent_action_component">Send %1$s to %2$s</string>
-    <string name="item_desc_pause">Pause the detection execution</string>
-    <string name="item_desc_pause_details">During %1$s</string>
-    <string name="item_desc_swipe">Swipe from a position on the screen to another</string>
-    <string name="item_desc_swipe_details">During %1$s from [%2$d, %3$d] to [%4$d, %5$d]</string>
-    <string name="item_desc_swipe_positions">Swipe from %1$d, %2$d to %3$d, %4$d</string>
-    <string name="item_desc_toggle_event">Change the enabled state of an event</string>
-    <string name="item_desc_toggle_event_details">Change event state with type %1$s</string>
-    <string name="item_error_action_invalid_generic">This action is invalid</string>
-    <string name="item_error_action_invalid_toggle_event_target">Target event not found</string>
-    <string name="item_title_click">Click</string>
+    <string name="item_desc_click">Нажатие где-нибудь на экране</string>
+    <string name="item_desc_click_details">В течение %1$s в [%2$d, %3$d]</string>
+    <string name="item_desc_click_position_on_condition">По условию</string>
+    <string name="item_desc_click_on_position">Нажатие на %1$d, %2$d</string>
+    <string name="item_desc_intent">Взаимодействие с другим приложением</string>
+    <string name="item_desc_intent_action">Отправить %1$s</string>
+    <string name="item_desc_intent_action_component">Отправить %1$s в %2$s</string>
+    <string name="item_desc_pause">Приостановить выполнение обнаружения</string>
+    <string name="item_desc_pause_details">В течение %1$s</string>
+    <string name="item_desc_swipe">Свайп с одной позиции экрана в другу</string>
+    <string name="item_desc_swipe_details">В течение %1$s с [%2$d, %3$d] до [%4$d, %5$d]</string>
+    <string name="item_desc_swipe_positions">Свайп с %1$d, %2$d до %3$d, %4$d</string>
+    <string name="item_desc_toggle_event">Изменение состояния события</string>
+    <string name="item_desc_toggle_event_details">Изменение состояния события с типом %1$s</string>
+    <string name="item_error_action_invalid_generic">Действие некорректное</string>
+    <string name="item_error_action_invalid_toggle_event_target">Целевое событие не найдено</string>
+    <string name="item_title_click">Нажатие</string>
     <string name="item_title_debug_generate_report">Generate a report</string>
-    <string name="item_title_debug_show_view">Show debug view</string>
-    <string name="item_title_intent">Intent</string>
-    <string name="item_title_pause">Wait</string>
-    <string name="item_title_swipe">Swipe</string>
-    <string name="item_title_toggle_event">Change event state</string>
+    <string name="item_title_debug_show_view">Сгенерировать отчет</string>
+    <string name="item_title_intent">Датасет</string>
+    <string name="item_title_pause">Пауза</string>
+    <string name="item_title_swipe">Свайп</string>
+    <string name="item_title_toggle_event">Изменить состояние события</string>
 
     <!--
       - Empty list messages.
       - Views handles any length here, but try to be concise.
       -->
-    <string name="message_empty_actions">No actions !</string>
-    <string name="message_empty_conditions">No conditions !</string>
-    <string name="message_empty_copy">Nothing to copy</string>
-    <string name="message_empty_end_condition_config_event_none_in_scenario">No Event created in the scenario</string>
-    <string name="message_empty_end_condition_config_event_no_selection">No Event selected</string>
-    <string name="message_empty_event_list">No events !</string>
+    <string name="message_empty_actions">Нет действий !</string>
+    <string name="message_empty_conditions">Нет условий !</string>
+    <string name="message_empty_copy">Нечего копировать</string>
+    <string name="message_empty_end_condition_config_event_none_in_scenario">В сценарии не созданы события</string>
+    <string name="message_empty_end_condition_config_event_no_selection">Нет выбранных событий</string>
+    <string name="message_empty_event_list">Нет событий !</string>
 
     <!--
       - Secondary empty list messages.
       - Views handles any length here, you can use more verbosity than the regular empty text.
       -->
-    <string name="message_empty_secondary_end_condition_no_events">You need at least one event to create an end condition for your scenario</string>
-    <string name="message_empty_secondary_event_list">An event contains a set of actions executed when a specific condition is detected on the screen.\nYou need at least one event in your scenario to execute it.</string>
-    <string name="message_empty_secondary_condition_list">A condition is a part of a screenshot that will be searched on each frames displayed by your phone screen.\nYou need at least one condition in your event.</string>
-    <string name="message_empty_secondary_action_list">An action is an interaction (click, swipe…) with your phone triggered when the created conditions are fulfilled.\nYou need at least one action in your event.</string>
+    <string name="message_empty_secondary_end_condition_no_events">Вам нужно хотя бы одно событие, чтобы создать конечное условие для вашего сценария.</string>
+    <string name="message_empty_secondary_event_list">Событие содержит набор действий, выполняемых при обнаружении на экране определенного условия.\nВам нужно хотя бы одно событие в вашем сценарии, чтобы выполнить его.</string>
+    <string name="message_empty_secondary_condition_list">Условие - это часть скриншота, который будет просматриваться в каждом кадре, отображаемом на экране вашего телефона.\nВам нужно хотя бы одно условие в вашем событии.</string>
+    <string name="message_empty_secondary_action_list">Действие - это взаимодействие (щелчок, свайп …) с вашим телефоном, запускаемое при выполнении созданных условий.\nВам нужно хотя бы одно действие в вашем событии.</string>
 
     <!--
       - Messages.
       - Views handles any length here, so no limitations.
       -->
     <string name="message_condition_threshold">%1$d%%</string>
-    <string name="message_event_copy_with_toggle_action_from_another_scenario">This event have one or more toggle event actions referencing an event from another scenario.\nYou will have to update their target events before saving your scenario.</string>
-    <string name="message_event_delete_associated_end_condition">This event have one or more end conditions referencing it. Deleting this event will delete the associated end conditions as well.\nAre you sure ?</string>
-    <string name="message_event_delete_associated_action">This event have one or more actions referencing it. Deleting this event will delete the associated actions as well.\nAre you sure ?</string>
+    <string name="message_event_copy_with_toggle_action_from_another_scenario">Это событие содержит одно или несколько действий переключения событий, ссылающихся на событие из другого сценария.\nВам нужно будет обновить их целевые события перед сохранением вашего сценария.</string>
+    <string name="message_event_delete_associated_end_condition">Это событие имеет одно или несколько конечных условий, ссылающихся на него. Удаление этого события также приведет к удалению связанных с ним конечных условий.\nВы уверены?</string>
+    <string name="message_event_delete_associated_action">На это событие ссылается одно или несколько действий. Удаление этого события также приведет к удалению связанных с ним действий.\nВы уверены?</string>
 
     <!--
       - Toast messages.
       - Can be pretty long (2 lines).
       -->
-    <string name="toast_configure_single_click">Touch the position to click on.</string>
-    <string name="toast_configure_swipe_from">Touch the position to start the swipe from.</string>
-    <string name="toast_configure_swipe_to">Touch the position to end the swipe to.</string>
+    <string name="toast_configure_single_click">Коснитесь позиции, на которую нужно нажать.</string>
+    <string name="toast_configure_swipe_from">Коснитесь позиции, с которой нужно начать свайп.</string>
+    <string name="toast_configure_swipe_to">Коснитесь позиции, в которой вы хотите завершить свайп.</string>
 
     <!--
       - Section titles.
       - Should be short and concise.
       -->
-    <string name="section_title_condition_detection_details">Detection details</string>
-    <string name="section_title_condition_threshold">Tolerated difference</string>
-    <string name="section_title_detection_quality_title">Detection quality</string>
-    <string name="section_title_end_condition">End conditions</string>
-    <string name="section_title_intent_extras_value">Value</string>
-    <string name="section_title_start_application">Start application</string>
+    <string name="section_title_condition_detection_details">Детали обнаружения</string>
+    <string name="section_title_condition_threshold">Допустимая разница</string>
+    <string name="section_title_detection_quality_title">Качество обнаружения</string>
+    <string name="section_title_end_condition">Конечные условия</string>
+    <string name="section_title_intent_extras_value">Значение</string>
+    <string name="section_title_start_application">Запустите приложение</string>
 
     <!--
       - List header.
       - Displayed on one line.
       -->
-    <string name="list_header_copy_event_this">Events from this scenario</string>
-    <string name="list_header_copy_event_all">Events from all scenarios</string>
-    <string name="list_header_copy_conditions_this">Conditions from this event</string>
-    <string name="list_header_copy_conditions_all">Conditions from all events</string>
-    <string name="list_header_copy_action_this">Actions from this event</string>
-    <string name="list_header_copy_action_all">Actions from all events</string>
+    <string name="list_header_copy_event_this">События по этому сценарию</string>
+    <string name="list_header_copy_event_all">События из всех сценариев</string>
+    <string name="list_header_copy_conditions_this">Условия из этого события</string>
+    <string name="list_header_copy_conditions_all">Условия из всех событий</string>
+    <string name="list_header_copy_action_this">Действия из этого события</string>
+    <string name="list_header_copy_action_all">Действия из всех событий</string>
 
     <!--
       - SearchView hint
       - Displayed on one line.
       -->
-    <string name="search_view_hint_event_copy">Search by event name</string>
-    <string name="search_view_hint_action_copy">Search by action name</string>
-    <string name="search_view_hint_condition_copy">Search by condition name</string>
+    <string name="search_view_hint_event_copy">Поиск по названию события</string>
+    <string name="search_view_hint_action_copy">Поиск по названию действия</string>
+    <string name="search_view_hint_condition_copy">Поиск по названию условия</string>
 
     <!--
       - TextButton content.
       - Should be short and concise.
       -->
-    <string name="button_text_click_position_select">Select the position</string>
-    <string name="button_text_create_scenario">Create a scenario</string>
-    <string name="button_text_intent_extra_type_select">Select a type</string>
-    <string name="button_text_quality_speed">Speed</string>
-    <string name="button_text_quality_precision">Precision</string>
-    <string name="button_text_swipe_positions_select">Select the positions</string>
+    <string name="button_text_click_position_select">Выбрать позицию</string>
+    <string name="button_text_create_scenario">Создать сценарий</string>
+    <string name="button_text_intent_extra_type_select">Выбрать тип</string>
+    <string name="button_text_quality_speed">Скорость</string>
+    <string name="button_text_quality_precision">Точность</string>
+    <string name="button_text_swipe_positions_select">Выбрать позиции</string>
 
     <!--
       - Text input fields labels and error messages.
       - Should be short and concise.
       -->
-    <string name="input_field_label_name">Name</string>
-    <string name="input_field_label_click_press_duration">Press duration (ms)</string>
-    <string name="input_field_label_execution_count">Executions</string>
-    <string name="input_field_label_intent_extra_key">Key</string>
-    <string name="input_field_label_pause_duration">Pause duration (ms)</string>
-    <string name="input_field_label_scenario_name">Scenario name</string>
-    <string name="input_field_label_swipe_duration">Swipe duration (ms)</string>
-    <string name="input_field_label_anti_detection">Anti-detection</string>
-    <string name="input_field_label_event_state">State</string>
-    <string name="input_field_error_required">Required</string>
-    <string name="input_field_toggle_event_type">New event state</string>
+    <string name="input_field_label_name">Название</string>
+    <string name="input_field_label_click_press_duration">Длительность нажатия (ms)</string>
+    <string name="input_field_label_execution_count">Количество выполнений</string>
+    <string name="input_field_label_intent_extra_key">Ключ</string>
+    <string name="input_field_label_pause_duration">Задержка (ms)</string>
+    <string name="input_field_label_scenario_name">Название сценария</string>
+    <string name="input_field_label_swipe_duration">Длительность свайпа (ms)</string>
+    <string name="input_field_label_anti_detection">Анти-обнаружение</string>
+    <string name="input_field_label_event_state">Состояние</string>
+    <string name="input_field_error_required">Необходимо</string>
+    <string name="input_field_toggle_event_type">Новое состояние события</string>
 
     <!--
       - Dropdown input fields texts.
@@ -183,72 +183,65 @@
       -->
 
     <!-- Dropdown field for selecting anti bot state -->
-    <string name="dropdown_item_title_anti_detection_enabled">Enabled</string>
-    <string name="dropdown_item_title_anti_detection_disabled">Disabled</string>
-    <string name="dropdown_helper_text_anti_detection_enabled">Randomize the click swipe and pause positions and durations by a small random offset</string>
-    <string name="dropdown_helper_text_anti_detection_disabled">Execute all actions as declared</string>
+    <string name="dropdown_item_title_anti_detection_enabled">Включено</string>
+    <string name="dropdown_item_title_anti_detection_disabled">Выключено</string>
+    <string name="dropdown_helper_text_anti_detection_enabled">Рандомизация позиции и продолжительность щелчков, свайпов и пауз с небольшим случайным смещением</string>
+    <string name="dropdown_helper_text_anti_detection_disabled">Все действия будут выполнены в строго выбранных позициях</string>
 
     <!-- Dropdown field for selecting the event state -->
-    <string name="dropdown_item_title_event_state_enabled">Enabled</string>
-    <string name="dropdown_item_title_event_state_disabled">Disabled</string>
-    <string name="dropdown_helper_text_event_state_enabled">This event will be interpreted normally when playing the scenario</string>
-    <string name="dropdown_helper_text_event_state_disabled">This event needs to be enabled by an action to be interpreted when playing the scenario</string>
+    <string name="dropdown_item_title_event_state_enabled">Включено</string>
+    <string name="dropdown_item_title_event_state_disabled">Выключено</string>
+    <string name="dropdown_helper_text_event_state_enabled">Это событие будет выполняться в обычном режиме при воспроизведении сценария</string>
+    <string name="dropdown_helper_text_event_state_disabled">Это событие должно быть включено действием, которое будет интерпретироваться при воспроизведении сценария</string>
 
     <!-- Dropdown field for selecting the toggle event type -->
-    <string name="dropdown_item_title_toggle_event_state_enable">Enable</string>
-    <string name="dropdown_item_title_toggle_event_state_disable">Disable</string>
-    <string name="dropdown_item_title_toggle_event_state_toggle">Toggle</string>
-    <string name="dropdown_helper_text_toggle_event_state_enable">The event will start being interpreted when playing the scenario</string>
-    <string name="dropdown_helper_text_toggle_event_state_disable">The event will stop being interpreted when playing the scenario</string>
-    <string name="dropdown_helper_text_toggle_event_state_toggle">When playing the scenario, start interpreting the event if it is disabled, stop if it is enabled</string>
+    <string name="dropdown_item_title_toggle_event_state_enable">Включено</string>
+    <string name="dropdown_item_title_toggle_event_state_disable">Выключено</string>
+    <string name="dropdown_item_title_toggle_event_state_toggle">Переключено</string>
+    <string name="dropdown_helper_text_toggle_event_state_enable">Событие начнет выполняться при воспроизведении сценария</string>
+    <string name="dropdown_helper_text_toggle_event_state_disable">Событие перестанет выполняться при воспроизведении сценария</string>
+    <string name="dropdown_helper_text_toggle_event_state_toggle">При воспроизведении сценария событие будет выполняться, если оно отключено, и перестанет, если оно включено</string>
 
     <!-- Dropdown field for selecting the conditions operator -->
-    <string name="dropdown_label_condition_operator">Conditions</string>
-    <string name="dropdown_item_title_condition_or">One</string>
-    <string name="dropdown_item_title_condition_and">All</string>
-    <string name="dropdown_helper_text_condition_or">Only one condition must be fulfilled to trigger the actions</string>
-    <string name="dropdown_helper_text_condition_and">All conditions must be fulfilled to trigger the actions</string>
+    <string name="dropdown_label_condition_operator">Условия завершения</string>
+    <string name="dropdown_item_title_condition_or">Одно</string>
+    <string name="dropdown_item_title_condition_and">Все</string>
+    <string name="dropdown_helper_text_condition_or">Для запуска действий должно быть выполнено только одно условие</string>
+    <string name="dropdown_helper_text_condition_and">Для запуска действий должны быть выполнены все условия</string>
 
     <!-- Dropdown field for selecting the end conditions operator. Item titles are the same as conditions operator. -->
-    <string name="dropdown_helper_text_end_condition_or">Only one condition must be fulfilled to stop the scenario</string>
-    <string name="dropdown_helper_text_end_condition_and">All conditions must be fulfilled to stop the scenario</string>
+    <string name="dropdown_helper_text_end_condition_or">Для завершения сценария необходимо выполнение хотя бы одного условия</string>
+    <string name="dropdown_helper_text_end_condition_and">Для завершения сценария необходимо выполнение всех условий</string>
 
     <!-- Dropdown field for selecting the condition detection type. -->
-    <string name="dropdown_label_condition_detection_type">Detection type</string>
-    <string name="dropdown_item_title_detection_type_exact">Exact</string>
-    <string name="dropdown_item_title_detection_type_screen">Screen</string>
-    <string name="dropdown_helper_text_detection_type_exact">The condition detection is made at the captured position</string>
-    <string name="dropdown_helper_text_detection_type_screen">The condition detection is made on the whole screen</string>
+    <string name="dropdown_label_condition_detection_type">Область обнаружения</string>
+    <string name="dropdown_item_title_detection_type_exact">Фрагмент</string>
+    <string name="dropdown_item_title_detection_type_screen">Экран</string>
+    <string name="dropdown_helper_text_detection_type_exact">Поиск условия будет идти в выбранном фрагменте</string>
+    <string name="dropdown_helper_text_detection_type_screen">Поиск условия будет идти на всем экране</string>
 
     <!-- Dropdown field for selecting the condition visibility. -->
-    <string name="dropdown_label_condition_visibility">Visibility</string>
-    <string name="dropdown_item_title_condition_visibility_present">Present</string>
-    <string name="dropdown_item_title_condition_visibility_absent">Absent</string>
-    <string name="dropdown_helper_text_condition_visibility_present">The condition must be detected</string>
-    <string name="dropdown_helper_text_condition_visibility_absent">The condition must not be detected</string>
+    <string name="dropdown_label_condition_visibility">Видимость</string>
+    <string name="dropdown_item_title_condition_visibility_present">Присутствует</string>
+    <string name="dropdown_item_title_condition_visibility_absent">Отсутствует</string>
+    <string name="dropdown_helper_text_condition_visibility_present">Условие должно быть обнаружено</string>
+    <string name="dropdown_helper_text_condition_visibility_absent">Условие не должно быть обнаружено</string>
 
     <!-- Dropdown field for selecting the click position type -->
-    <string name="dropdown_label_click_position_type">Click on</string>
-    <string name="dropdown_item_title_click_position_type_on_condition">Condition</string>
-    <string name="dropdown_item_title_click_position_type_on_position">Selected position</string>
-    <string name="dropdown_helper_text_click_position_type_on_condition">Click on the detected condition</string>
-    <string name="dropdown_helper_text_click_position_type_on_position">Click on the selected position</string>
-
-    <!-- Dropdown field for selecting the swipe position type -->
-    <string name="dropdown_label_swipe_position_type" translatable="false">Swipe on</string>
-    <string name="dropdown_item_title_swipe_position_type_on_condition" translatable="false">Condition</string>
-    <string name="dropdown_item_title_swipe_position_type_on_position" translatable="false">Selected position</string>
-    <string name="dropdown_helper_text_swipe_position_type_on_condition" translatable="false">Swipe on the detected condition Y</string>
-    <string name="dropdown_helper_text_swipe_position_type_on_position" translatable="false">Swipe on the selected position</string>
+    <string name="dropdown_label_click_position_type">Нажатие по</string>
+    <string name="dropdown_item_title_click_position_type_on_condition">Условию</string>
+    <string name="dropdown_item_title_click_position_type_on_position">Выбранной позиции</string>
+    <string name="dropdown_helper_text_click_position_type_on_condition">Нажатие по заданному условию</string>
+    <string name="dropdown_helper_text_click_position_type_on_position">Нажатие по выбранной позиции</string>
 
     <!-- Dropdown field for selecting the intent sending type. -->
-    <string name="dropdown_label_intent_sending_type">Type</string>
+    <string name="dropdown_label_intent_sending_type">Тип</string>
 
     <!--
       - Dropdown field for selecting the intent extra type.
       - All items for this field are not translatable.
       -->
-    <string name="dropdown_label_intent_extra_value_type">Value type</string>
+    <string name="dropdown_label_intent_extra_value_type">Тип значения</string>
 
 
     <!--
