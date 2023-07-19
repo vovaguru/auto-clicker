@@ -179,6 +179,7 @@ internal class DetectorEngine(context: Context) {
                 endConditions =  endConditions,
                 onStopRequested = { stopDetection() },
                 progressListener  = progressListener,
+                context = context
             )
 
             processScreenImages()

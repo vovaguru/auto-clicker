@@ -19,7 +19,6 @@ package com.buzbuz.smartautoclicker.feature.scenario.config.ui.action.swipe
 import android.app.Application
 import android.content.SharedPreferences
 import android.graphics.Point
-import android.util.Log
 
 import androidx.lifecycle.AndroidViewModel
 
@@ -87,6 +86,28 @@ class SwipeViewModel(application: Application) : AndroidViewModel(application) {
         editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
             editionRepository.updateEditedAction(swipe.copy(swipeOnCondition = onCondition))
         }
+    }
+
+    fun setUseSoundNotification(useSound: Boolean){
+        editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
+            editionRepository.updateEditedAction(swipe.copy(useSoundNotification = useSound))
+        }
+    }
+
+    fun getUseSoundNotification(): Boolean {
+        var useSoundNotify = false
+        editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
+            useSoundNotify = swipe.useSoundNotification
+        }
+        return useSoundNotify
+    }
+
+    fun getSwipeOnCondition(): Boolean {
+        var useSwipeOnCondition = false
+        editionRepository.editionState.getEditedAction<Action.Swipe>()?.let { swipe ->
+            useSwipeOnCondition = swipe.swipeOnCondition
+        }
+        return useSwipeOnCondition
     }
 
     /**

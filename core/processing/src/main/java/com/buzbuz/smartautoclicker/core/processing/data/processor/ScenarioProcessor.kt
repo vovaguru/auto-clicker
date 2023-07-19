@@ -16,6 +16,7 @@
  */
 package com.buzbuz.smartautoclicker.core.processing.data.processor
 
+import android.content.Context
 import android.graphics.Bitmap
 import android.media.Image
 import com.buzbuz.smartautoclicker.core.display.toBitmap
@@ -52,6 +53,7 @@ import kotlinx.coroutines.yield
  * @param progressListener the object to notify for detection progress. Can be null if not required.
  */
 internal class ScenarioProcessor(
+    private val context: Context,
     private val imageDetector: ImageDetector,
     private val detectionQuality: Int,
     randomize: Boolean,
@@ -67,7 +69,7 @@ internal class ScenarioProcessor(
     /** Handle the processing state of the scenario. */
     private val scenarioState = ScenarioState(events)
     /** Execute the detected event actions. */
-    private val actionExecutor = ActionExecutor(androidExecutor, scenarioState, randomize)
+    private val actionExecutor = ActionExecutor(context, androidExecutor, scenarioState, randomize)
     /** Verifies the end conditions of a scenario. */
     private val endConditionVerifier = EndConditionVerifier(endConditions, endConditionOperator, onStopRequested)
 

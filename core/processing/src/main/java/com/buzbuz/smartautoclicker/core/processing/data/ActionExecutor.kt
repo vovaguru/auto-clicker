@@ -17,11 +17,12 @@
 package com.buzbuz.smartautoclicker.core.processing.data
 
 import android.accessibilityservice.GestureDescription
+import android.content.Context
 import android.content.Intent
 import android.graphics.Path
 import android.graphics.Point
+import android.media.RingtoneManager
 import android.util.Log
-
 import com.buzbuz.smartautoclicker.core.domain.model.action.Action
 import com.buzbuz.smartautoclicker.core.domain.model.action.Action.Click
 import com.buzbuz.smartautoclicker.core.domain.model.action.Action.Pause
@@ -29,13 +30,13 @@ import com.buzbuz.smartautoclicker.core.domain.model.action.Action.Swipe
 import com.buzbuz.smartautoclicker.core.domain.model.action.Action.ToggleEvent
 import com.buzbuz.smartautoclicker.core.domain.model.action.GESTURE_DURATION_MAX_VALUE
 import com.buzbuz.smartautoclicker.core.domain.model.action.putDomainExtra
-
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.random.Random
+
 
 /**
  * Execute the actions of an event.
@@ -45,6 +46,7 @@ import kotlin.random.Random
  * @param randomize true to randomize the actions values a bit (positions, timers...), false to be precise.
  */
 internal class ActionExecutor(
+    private val context: Context,
     private val androidExecutor: AndroidExecutor,
     private val scenarioEditor: ScenarioEditor,
     private val randomize: Boolean,
@@ -108,9 +110,15 @@ internal class ActionExecutor(
         val swipePath = Path()
         val swipeBuilder = GestureDescription.Builder()
 
-        conditionPosition?.let { center ->  Log.d("SWIPE ON", center.y.toString())}
-
-
+        if (swipe.useSoundNotification) {
+            try {
+                val notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+                val r = RingtoneManager.getRingtone(context, notification)
+                r.play()
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
 
         if (swipe.swipeOnCondition) {
             conditionPosition?.let { conditionCenter ->

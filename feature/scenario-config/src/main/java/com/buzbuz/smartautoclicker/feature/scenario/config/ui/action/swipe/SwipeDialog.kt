@@ -99,8 +99,16 @@ class SwipeDialog(
             hideSoftInputOnFocusLoss(editSwipeDurationLayout.textField)
 
             useConditionPosition.apply {
+                isChecked = viewModel.getSwipeOnCondition()
                 setOnCheckedChangeListener {_, isChecked ->
                     viewModel.setSwipeOnCondition(isChecked)
+                }
+            }
+
+            useSoundNotification.apply {
+                isChecked = viewModel.getUseSoundNotification()
+                setOnCheckedChangeListener {_, isChecked ->
+                    viewModel.setUseSoundNotification(isChecked)
                 }
             }
 

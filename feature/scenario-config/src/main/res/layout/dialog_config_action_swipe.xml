@@ -55,7 +55,15 @@
                 android:id="@+id/use_condition_position"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Использовать позицию условия"/>
+                android:text="Использовать позицию условия"
+                android:layout_marginVertical="8dp"/>
+
+            <Switch
+                android:id="@+id/use_sound_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Звуковое уведомление"
+                android:layout_marginVertical="8dp"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/on_position_select_button"

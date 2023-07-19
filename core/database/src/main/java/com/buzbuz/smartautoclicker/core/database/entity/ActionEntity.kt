@@ -100,6 +100,7 @@ data class ActionEntity(
     @ColumnInfo(name = "toY") val toY: Int? = null,
     @ColumnInfo(name = "swipeDuration") val swipeDuration: Long? = null,
     @ColumnInfo(name = "swipeOnCondition") val swipeOnCondition: Boolean? = null,
+    @ColumnInfo(name = "useSoundNotification") val useSoundNotification: Boolean? = null,
 
     // ActionType.PAUSE
     @ColumnInfo(name = "pauseDuration") val pauseDuration: Long? = null,

@@ -86,10 +86,11 @@ sealed class Action {
         val toX: Int? = null,
         val toY: Int? = null,
         val swipeOnCondition: Boolean,
+        val useSoundNotification: Boolean,
     ) : Action() {
 
         override fun isComplete(): Boolean =
-            super.isComplete() && swipeDuration != null && ((fromX != null && fromY != null && toX != null && toY != null) || swipeOnCondition)
+            super.isComplete() && swipeDuration != null && ((fromX != null && fromY != null && toX != null && toY != null) || swipeOnCondition || useSoundNotification)
 
         override fun deepCopy(): Swipe = copy(name = "" + name)
     }
