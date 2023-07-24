@@ -141,6 +141,20 @@ class ConditionViewModel(application: Application) : AndroidViewModel(applicatio
         }
     }
 
+    fun setPriority(priority: Int) {
+        editionRepository.editionState.getEditedCondition()?.let { condition ->
+            editionRepository.updateEditedCondition(condition.copy(priority = priority))
+        }
+    }
+
+    fun getPriority(): Int {
+        var priority = 1
+        editionRepository.editionState.getEditedCondition()?.let{ condition ->
+            priority = condition.priority
+        }
+        return priority
+    }
+
     /**
      * Set the threshold of the configured condition.
      * @param value the new threshold value.

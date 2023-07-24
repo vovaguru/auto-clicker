@@ -97,6 +97,13 @@ class ConditionDialog(
             }
             hideSoftInputOnFocusLoss(editNameLayout.textField)
 
+            prioritySelector.apply{
+                minValue = 1
+                maxValue = 50
+                value = viewModel.getPriority()
+                setOnValueChangedListener {picker, oldVal, newVal -> viewModel.setPriority(newVal)}
+            }
+
             conditionDetectionType.setItems(
                 label = context.getString(R.string.dropdown_label_condition_detection_type),
                 items = viewModel.detectionTypeItems,

@@ -207,6 +207,7 @@ internal class ScenarioSerializer {
             val areaTop = getInt("areaTop", true) ?: return@mapNotNull null
             val areaRight = getInt("areaRight", true) ?: return@mapNotNull null
             val areaBottom = getInt("areaBottom", true) ?: return@mapNotNull null
+            val conditionPriority = getInt("priority", true) ?: return@mapNotNull null
 
             ConditionEntity(
                 id = id,
@@ -217,6 +218,7 @@ internal class ScenarioSerializer {
                 areaRight = areaRight,
                 areaBottom = areaBottom,
                 name = getString("name") ?: "",
+                priority = conditionPriority,
                 shouldBeDetected = getBoolean("shouldBeDetected") ?: true,
                 detectionType = getInt("detectionType")
                     ?.coerceIn(DETECTION_TYPE_LOWER_BOUND, DETECTION_TYPE_UPPER_BOUND)

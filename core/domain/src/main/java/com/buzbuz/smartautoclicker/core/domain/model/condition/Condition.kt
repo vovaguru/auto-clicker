@@ -44,6 +44,7 @@ data class Condition(
     @DetectionType val detectionType: Int,
     val shouldBeDetected: Boolean,
     val bitmap: Bitmap? = null,
+    val priority: Int,
 ) {
 
     /** @return creates a deep copy of this condition. */

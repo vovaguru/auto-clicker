@@ -86,6 +86,7 @@ class EditedItemsBuilder internal constructor(private val editor: ScenarioEditor
             threshold = context.resources.getInteger(R.integer.default_condition_threshold),
             detectionType = EXACT,
             shouldBeDetected = true,
+            priority = 1
         )
 
     fun createNewConditionFrom(condition: Condition, eventId: Identifier = getEditedEventIdOrThrow()) =

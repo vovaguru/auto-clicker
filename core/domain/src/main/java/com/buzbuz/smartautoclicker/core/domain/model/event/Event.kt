@@ -40,7 +40,7 @@ data class Event(
     @ConditionOperator val conditionOperator: Int,
     var priority: Int,
     val actions: List<Action> = emptyList(),
-    val conditions: List<Condition> =  emptyList(),
+    var conditions: List<Condition> =  emptyList(),
     val enabledOnStart: Boolean = true,
 ) {
 

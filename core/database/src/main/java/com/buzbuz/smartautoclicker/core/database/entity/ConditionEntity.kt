@@ -69,4 +69,5 @@ data class ConditionEntity(
     @ColumnInfo(name = "threshold", defaultValue = "1") val threshold: Int,
     @ColumnInfo(name = "detection_type") val detectionType: Int,
     @ColumnInfo(name = "shouldBeDetected") val shouldBeDetected: Boolean,
+    @ColumnInfo(name = "priority") val priority: Int,
 )

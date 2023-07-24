@@ -34,6 +34,7 @@ internal fun Condition.toEntity() = ConditionEntity(
     threshold = threshold,
     detectionType = detectionType,
     shouldBeDetected = shouldBeDetected,
+    priority = priority,
 )
 
 /** @return the condition for this entity. */
@@ -46,4 +47,5 @@ internal fun ConditionEntity.toCondition(asDomain: Boolean = false) = Condition(
     threshold = threshold,
     detectionType = detectionType,
     shouldBeDetected = shouldBeDetected,
+    priority = priority,
 )

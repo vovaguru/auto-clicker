@@ -118,7 +118,9 @@ internal class ScenarioProcessor(
 
             // Event conditions verification
             progressListener?.onEventProcessingStarted(event)
+            event.conditions = event.conditions.sortedByDescending { it.priority }
             val result = verifyConditions(event)
+
             progressListener?.onEventProcessingCompleted(result)
 
             // If conditions are fulfilled, execute this event's actions !
@@ -149,6 +151,7 @@ internal class ScenarioProcessor(
      * @param event the event to verify the conditions of.
      */
     private suspend fun verifyConditions(event: Event) : ProcessorResult {
+        event.conditions = event.conditions.sortedByDescending { it.priority }
         event.conditions.forEachIndexed { index, condition ->
             // Verify if the condition is fulfilled.
             progressListener?.onConditionProcessingStarted(condition)

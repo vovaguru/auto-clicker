@@ -48,6 +48,20 @@
                 app:endIconMode="clear_text"
                 android:hint="@string/input_field_label_name"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_default"
+                android:text="Приоритет"/>
+            
+            <NumberPicker
+                android:id="@+id/prioritySelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="16dp"
+                />
+
             <com.google.android.material.card.MaterialCardView
                 style="@style/AppTheme.Widget.Card"
                 android:layout_width="match_parent"
